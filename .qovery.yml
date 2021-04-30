@@ -1,0 +1,11 @@
+---
+application:
+  name: "jsbin"
+  project: "Outerworld "
+  organization: "QoveryCommunity"
+routers:
+- name: "main-jsbin"
+  routes:
+  - application_name: "jsbin"
+    paths:
+    - "/*"
